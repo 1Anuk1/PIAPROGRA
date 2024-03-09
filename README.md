@@ -1,6 +1,6 @@
 # PIAPROGRA
 Repositorio para el PIA de prograavanzada
-#A)Genere una clase en Python llamada TDevice (Dispositivo Electrónico) con los atributos 
+# A)Genere una clase en Python llamada TDevice (Dispositivo Electrónico) con los atributos 
   #de tamaño, peso, altura, marca y comportamiento encender, apagar. 
 class TDEVICE:
   Tamaño = 0
@@ -28,7 +28,7 @@ class TDEVICE:
         print (f"{self.marca} ya esta apagado")
 
 
-#B) Genere 3 clases que desciendan de TDevice, por ejemplo una TV, Una Licuadora y Un 
+# B) Genere 3 clases que desciendan de TDevice, por ejemplo una TV, Una Licuadora y Un 
 #Celular. Agregarle 3 métodos a cada nueva clase, es decir un comportamiento 
 #específico para cada nueva clase
 
@@ -74,10 +74,10 @@ class lavadora(TDEVICE):#3era clase, lavadora con tres ciclos, llenado, enjuagad
      self.exprimido = True
 
 
-#c) Genere 2 instancias de cada una de las clases del punto 17 con diferentes valores en 
+# c) Genere 2 instancias de cada una de las clases del punto 17 con diferentes valores en 
 #cada uno de los atributos y diferente comportamiento
 
-#instancias de calculadora
+# instancias de calculadora
 calculadora1 = Calculadora(Tamaño=10, Altura=5, Peso=2, Marca="Casio", num1=5, num2=7)
 calculadora2 = Calculadora(Tamaño=8, Altura=4, Peso=1.5, Marca="HP", num1=10, num2=3)
 
@@ -191,7 +191,7 @@ ayudante2 = ayudante(tnombre="Ana", tapellidop="Martínez", taltura=160, tedad=2
 
 
 
-# H)Define una clase llamada Persona que tenga los siguientes atributos: nombre, edad y 
+# H) Define una clase llamada Persona que tenga los siguientes atributos: nombre, edad y 
 #genero. Además, la clase debe tener un método llamado presentarse que imprima un 
 #mensaje con el nombre y la edad de la persona}
 class persona:
@@ -208,7 +208,7 @@ class persona:
   print(f"Hola, soy {self.nombre}, tengo {self.edad} años y mi genero es {self.genero}.")
 
 
-#I)Crea una subclase llamada Estudiante que herede de la clase Persona y tenga un 
+#I) Crea una subclase llamada Estudiante que herede de la clase Persona y tenga un 
 #atributo adicional llamado curso. Además, añade un método llamado estudiar que 
 #imprima un mensaje indicando el curso que está estudiando
 
@@ -223,7 +223,7 @@ class estudiante(persona):
 
 
 
-#J)Define una clase llamada Rectángulo que tenga dos atributos: largo y ancho. Además, 
+#J) Define una clase llamada Rectángulo que tenga dos atributos: largo y ancho. Además, 
 #añade un método llamado área que calcule y devuelva el área del rectángulo.
  class rectangulo:
   base = 0
